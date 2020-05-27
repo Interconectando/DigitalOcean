@@ -3,9 +3,11 @@
 ### Abrir la terminal
 
 Puedes abrir tú terminal haciendo una búsqueda como:
-`terminal`
+Cmd + Space `terminal`
 
 ## 1 Creación de un usuario `Non-root` con privilegios de Super Usuario (SuperUser)
+
+###
 
 
 ## 2 Configuración de enlace SSH
@@ -18,5 +20,10 @@ Puedes abrir tú terminal haciendo una búsqueda como:
 
 ### Prohibir el acceso remoto de `root`
 
+Modifica `sshd_config` en el servidor Ubuntu remoto
+`nano /etc/ssh/sshd_config` 
+La linea a modificar es:
+`#Authentcation:`
+PermitRootLogin no`
 
 ### Deshabilitación de acceso al servidor por medio de contraseña
