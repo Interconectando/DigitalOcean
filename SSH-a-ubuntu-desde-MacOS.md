@@ -1,10 +1,18 @@
 # Pasos para conección con una instancia de DigitalOcean con Sistema operativo Linux Ubuntu 18, mediante SSH desde la terminal de MacOS, y dejar configurado el servidor para administración remota segura.
 
+Obten USD100 usando mi clave de promoción al registrarte en Digital Ocean
+## [Código de promoción de 100 USD en Digital Ocean] (https://m.do.co/c/173db4c4fe04)
+
 ### Abrir la terminal
 
 Puedes abrir tú terminal haciendo una búsqueda como:
 
 Cmd + Space `terminal`
+
+### Ingresa a tu droplet de Digital Ocean 
+
+
+
 ---
 ## 1 Creación de un usuario `Non-root` con privilegios de Super Usuario (SuperUser)
 Creación de usuario
