@@ -26,7 +26,7 @@ Modifica `sshd_config` en el servidor Ubuntu remoto
 
 La linea a modificar es:
 
-``bash
+```bash
 #Authentcation:
 PermitRootLogin no
 ```
