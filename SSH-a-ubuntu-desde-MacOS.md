@@ -3,16 +3,28 @@
 ### Abrir la terminal
 
 Puedes abrir tú terminal haciendo una búsqueda como:
+
 Cmd + Space `terminal`
 ---
 ## 1 Creación de un usuario `Non-root` con privilegios de Super Usuario (SuperUser)
+Creación de usuario
 
-###
+`adduser Usuario`
+
+Ingresa dos veces la contraseña del nuevo usuario `Usuario`
+
+Te preguntará que ingreses otra información general del usurio, puedes dejar en blanco todas las opciones.
+
+Ahora que el usuario ha sido creado, agrega privilegios para que pueda ejecutar tareas como Super Usuario
+
+
+
+
 
 ---
 ## 2 Configuración de enlace SSH
 
-### Crear una llave en la ubicación -f, del tipo rsa, de tamaño 4096
+### Crear una llave en la ubicación -f, del tipo rsa, de tamaño en bits 4096
 `ssh-keygen -f ~/Users/ElChupa/id_rsa_miclave.pub -t rsa -b 4096`
 
 ---
