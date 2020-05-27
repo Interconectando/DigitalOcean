@@ -21,11 +21,13 @@ Cmd + Space `terminal`
 ### Prohibir el acceso remoto de `root`
 
 Modifica `sshd_config` en el servidor Ubuntu remoto
+
 `nano /etc/ssh/sshd_config` 
 
 La linea a modificar es:
 
 `#Authentcation:`
+
 `PermitRootLogin no`
 
 ### Deshabilitación de acceso al servidor por medio de contraseña
