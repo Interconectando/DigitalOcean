@@ -1,7 +1,7 @@
 # Pasos para conección con una instancia de DigitalOcean con Sistema operativo Linux Ubuntu 18, mediante SSH desde la terminal de MacOS, y dejar configurado el servidor para administración remota segura.
 
 Obten USD100 usando mi clave de promoción al registrarte en Digital Ocean
-## [Código de promoción de 100 USD en Digital Ocean] (https://m.do.co/c/173db4c4fe04)
+## [Código de promoción de 100 USD en Digital Ocean](https://m.do.co/c/173db4c4fe04)
 
 ### Abrir la terminal
 
