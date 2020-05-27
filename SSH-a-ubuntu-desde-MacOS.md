@@ -31,6 +31,7 @@ La linea a modificar es:
 PermitRootLogin no
 ```
 Ahora, para que los cambios tomen efecto
+
 `service ssh restart`
 
 
