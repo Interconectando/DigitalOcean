@@ -27,8 +27,11 @@ Modifica `sshd_config` en el servidor Ubuntu remoto
 La linea a modificar es:
 
 ```bash
-#Authentcation:
+# Authentcation:
 PermitRootLogin no
 ```
+Ahora, para que los cambios tomen efecto
+`service ssh restart`
+
 
 ### Deshabilitación de acceso al servidor por medio de contraseña
